@@ -42,13 +42,13 @@ The easiest way to install spf13-vim is to use our [automatic installer](https:/
 
 ```bash
     
-    curl https://j.mp/sknauth-vim -L > spf13-vim.sh && sh spf13-vim.sh
+    curl https://j.mp/sknauth-vim -L > sknauth-vim.sh && sh sknauth-vim.sh
 ```
 
 If you have a bash-compatible shell you can run the script directly:
 ```bash
 
-    sh <(curl https://j.mp/skanuth-vim -L)
+    sh <(curl https://j.mp/sknauth-vim -L)
 ```
 
 ## Installing on Windows
