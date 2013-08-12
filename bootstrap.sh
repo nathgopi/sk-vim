@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 ############################  SETUP PARAMETERS
 app_name='sknauth-vim'
-git_uri='https://github.com/sknauth/skanuth-vim.git'
+git_uri='https://github.com/sknauth/sknauth-vim.git'
 git_branch='3.0'
 debug_mode='0'
 fork_maintainer='1'
