@@ -1,4 +1,4 @@
-# skn-vim : Fork of Steve Francia's Vim Distribution
+# sk-vim : Fork of Steve Francia's Vim Distribution
 
                     __ _ _____              _
          ___ _ __  / _/ |___ /      __   __(_)_ __ ___
@@ -42,13 +42,13 @@ The easiest way to install spf13-vim is to use our [automatic installer](https:/
 
 ```bash
     
-    curl https://j.mp/skn-vim -L > skn-vim.sh && sh skn-vim.sh
+    curl https://j.mp/sk-vim -L > sk-vim.sh && sh sk-vim.sh
 ```
 
 If you have a bash-compatible shell you can run the script directly:
 ```bash
 
-    sh <(curl https://j.mp/skn-vim -L)
+    sh <(curl https://j.mp/sk-vim -L)
 ```
 
 ## Installing on Windows
@@ -103,14 +103,14 @@ The simpliest (and safest) way to update is to simply rerun the installer. It wi
 
 ```bash
 
-    curl https://j.mp/skn-vim -L -o - | sh
+    curl https://j.mp/sk-vim -L -o - | sh
 
 ```
 
 Alternatively you can manually perform the following steps. If anything has changed with the structure of the configuration you will need to create the appropriate symlinks.
 
 ```bash
-    cd $HOME/to/skn-vim/
+    cd $HOME/to/sk-vim/
     git pull
     vim +BundleInstall! +BundleClean +q
 ```
