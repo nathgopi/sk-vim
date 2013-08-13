@@ -1,0 +1,25 @@
+" Modeline and Notes {
+" vim: set sw=4 ts=4 sts=4 et tw=78 foldmarker={,} foldlevel=0 foldmethod=marker spell:
+" }
+
+" Plugins {
+
+    " TagBar {
+        let g:tagbar_autofocus = 1
+    " }
+
+    " indent_guides {
+        let g:indent_guides_enable_on_vim_startup = 0
+    " }
+
+" }
+
+" GUI Settings {
+
+    " GVIM- (here instead of .gvimrc)
+    if has('gui_running')
+        set guioptions-=m           " Remove the menu
+        set guioptions-=r           " remove the scrollbar
+    endif
+
+" }
