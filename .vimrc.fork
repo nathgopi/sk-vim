@@ -20,6 +20,9 @@
     if has('gui_running')
         set guioptions-=m           " Remove the menu
         set guioptions-=r           " remove the scrollbar
+        if has("gui_gtk2")
+            set guifont=Meslo\ LG\ S\ for\ Powerline\ 12,Andale\ Mono\ Regular\ 16,Menlo\ Regular\ 15,Consolas\ Regular\ 16,Courier\ New\ Regular\ 18
+        endif
     endif
 
 " }
